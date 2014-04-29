@@ -1,0 +1,23 @@
+Thu Feb 27 18:45:00.239 [initandlisten] MongoDB starting : pid=2068 port=27017 dbpath=/data/db/ 32-bit host=precise32
+Thu Feb 27 18:45:00.240 [initandlisten] 
+Thu Feb 27 18:45:00.240 [initandlisten] ** NOTE: This is a 32 bit MongoDB binary.
+Thu Feb 27 18:45:00.240 [initandlisten] **       32 bit builds are limited to less than 2GB of data (or less with --journal).
+Thu Feb 27 18:45:00.240 [initandlisten] **       Note that journaling defaults to off for 32 bit and is currently off.
+Thu Feb 27 18:45:00.240 [initandlisten] **       See http://dochub.mongodb.org/core/32bit
+Thu Feb 27 18:45:00.241 [initandlisten] 
+Thu Feb 27 18:45:00.241 [initandlisten] db version v2.4.9
+Thu Feb 27 18:45:00.241 [initandlisten] git version: 52fe0d21959e32a5bdbecdc62057db386e4e029c
+Thu Feb 27 18:45:00.241 [initandlisten] build info: Linux bs-linux32.10gen.cc 2.6.21.7-2.fc8xen #1 SMP Fri Feb 15 12:39:36 EST 2008 i686 BOOST_LIB_VERSION=1_49
+Thu Feb 27 18:45:00.241 [initandlisten] allocator: system
+Thu Feb 27 18:45:00.242 [initandlisten] options: { fork: true, logpath: "/home/vagrant/.mongo_log" }
+Thu Feb 27 18:45:00.243 [initandlisten] exception in initAndListen: 10309 Unable to create/open lock file: /data/db/mongod.lock errno:13 Permission denied Is a mongod instance already running?, terminating
+Thu Feb 27 18:45:00.243 dbexit: 
+Thu Feb 27 18:45:00.243 [initandlisten] shutdown: going to close listening sockets...
+Thu Feb 27 18:45:00.243 [initandlisten] shutdown: going to flush diaglog...
+Thu Feb 27 18:45:00.244 [initandlisten] shutdown: going to close sockets...
+Thu Feb 27 18:45:00.244 [initandlisten] shutdown: waiting for fs preallocator...
+Thu Feb 27 18:45:00.244 [initandlisten] shutdown: closing all files...
+Thu Feb 27 18:45:00.244 [initandlisten] closeAllFiles() finished
+Thu Feb 27 18:45:00.244 [initandlisten] shutdown: removing fs lock...
+Thu Feb 27 18:45:00.245 [initandlisten] couldn't remove fs lock errno:9 Bad file descriptor
+Thu Feb 27 18:45:00.245 dbexit: really exiting now

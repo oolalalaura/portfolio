@@ -1,0 +1,100 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+
+<title>Laura Silva | UX Design Portfolio</title>
+
+<!--META-->
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta name="author" content="Laura Silva">
+	<meta name="description" content="User Experience Designer based in San Jose with a background in Cognitive Science and a penchant for human-computer interaction. Passionate in creating simple, enjoyable, and innovative interactions as well as experiences.">
+
+<!--LINKS-->
+	<link type="text/css" rel="stylesheet" media="all" href="css/style.css">
+	<link rel="shortcut icon" href="" type="image/x-icon">
+	<link rel="icon" href="" type="image/x-icon">
+
+<!--SCRIPTS-->
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery-scrolltofixed.js"></script>
+<script type="text/javascript">
+$(document).ready(function() {
+    $('#nav').scrollToFixed({marginTop: 20});
+});
+$(document).ready(function() {
+	$('h4').hide();
+})
+$(window).scroll(function() {
+    if ($(this).scrollTop() == 0) {
+        $("h4:visible").hide();
+    }
+    else {
+        $("h4:hidden").show();
+    }
+});
+</script>
+</head>
+
+<body>
+<div id="wrapper">
+
+	<div id="logo">
+		<a href="index.html"><h1>Laura <br> Silva</h1></a>
+		<div id="socialmedia">
+			<a href="https://www.linkedin.com/in/laurachavessilva" target="_blank"><img src="images/linkedin.png" alt="" /></a>
+			<a href="http://www.github.com/oolalalaura" target="_blank"><img src="images/github.png" alt="" /></a>
+		</div>
+	</div>
+	<div id="nav">
+		<ul>
+			<li><a href="projects.html">Portfolio</a></li>
+			<li><a href="laurasilvaresume.pdf" target="_blank">R&eacute;sum&eacute;</a></li>
+			<li><a href="about.html">About</a></li>
+		</ul>
+		<a href="index.html"><h4>Laura Silva</h4></a>
+	</div>
+
+
+	<div id="project">
+		<div id="headline">
+			<h5>Mars Time</h5>
+			<div id="projtype">
+				<h3>Project Type</h3>
+				<p>Visual Design</p>
+			</div>
+			<div id="timeline">
+				<h3>Timeline</h3>
+				<p>Sept 2013 - Dec 2013</p>
+			</div>
+			<div id="role">
+				<h3>My Role</h3>
+				<p>Researcher <br>Designer</p>
+			</div>
+		</div>
+		<div id="ideation">
+			<h5>Ideation</h5>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+			<img src="images/marstime2.jpg" alt="" />
+		</div>
+		<div id="research">
+			<h5>Research</h5>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+			<img src="images/marstime1.jpg" alt="" />
+		</div>
+		<div id="results">
+			<h5>Results</h5>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+			<img src="images/marswatch.PNG" alt="" />
+		</div>
+	</div>
+
+	<div id="footer">
+		<p>laura silva | <a href="mailto:" target="_top">laurachavessilva@gmail.com</a> | san jose, california</p>
+	</div>
+
+</div>
+</body>
+</html>

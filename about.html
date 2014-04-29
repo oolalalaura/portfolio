@@ -1,0 +1,70 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+
+<title>Laura Silva | UX Design Portfolio</title>
+
+<!--META-->
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta name="author" content="Laura Silva">
+	<meta name="description" content="User Experience Designer based in San Jose with a background in Cognitive Science and a penchant for human-computer interaction. Passionate in creating simple, enjoyable, and innovative interactions as well as experiences.">
+
+<!--LINKS-->
+	<link type="text/css" rel="stylesheet" media="all" href="css/style.css">
+	<link rel="shortcut icon" href="" type="image/x-icon">
+	<link rel="icon" href="" type="image/x-icon">
+
+<!--SCRIPTS-->
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery-scrolltofixed.js"></script>
+<script type="text/javascript">
+$(document).ready(function() {
+    $('#nav').scrollToFixed({marginTop: 20});
+});
+$(document).ready(function() {
+	$('h4').hide();
+})
+$(window).scroll(function() {
+    if ($(this).scrollTop() == 0) {
+        $("h4:visible").hide();
+    }
+    else {
+        $("h4:hidden").show();
+    }
+});
+</script>
+</head>
+
+<body>
+<div id="wrapper">
+
+	<div id="logo">
+		<a href="index.html"><h1>Laura <br> Silva</h1></a>
+		<div id="socialmedia">
+			<a href="https://www.linkedin.com/in/laurachavessilva" target="_blank"><img src="images/linkedin.png" alt="" /></a>
+			<a href="http://www.github.com/oolalalaura" target="_blank"><img src="images/github.png" alt="" /></a>
+		</div>
+	</div>
+	<div id="nav">
+		<ul>
+			<li><a href="projects.html">Portfolio</a></li>
+			<li><a href="laurasilvaresume.pdf" target="_blank">R&eacute;sum&eacute;</a></li>
+			<li class="active"><a href="about.html">About</a></li>
+		</ul>
+		<a href="index.html"><h4>Laura Silva</h4></a>
+	</div>
+	<div id="profpic">
+		<img src="images/sfheart.jpg" alt="" />
+	</div>
+	<div id="about">
+		<h3>Mind-Body-Computer</h3>
+		<p>It was Descartes that first formulated the mind-body problem, suggesting that the mind and body are separate entities (<a href="http://en.wikipedia.org/wiki/Dualism_(philosophy_of_mind)" target="_blank">dualism</a>). As humans progress, as technology advances, we broaden our horizons formulating new questions and new problems. <br> <br> Today the problem has transformed to not just mind-body but also mind-body-computer, the human-computer interaction.  Ideally the gap between humans and computers will be seamlessly bound together enhancing the user experience in the process. <br></p> <h3>About Me</h3> <p> As a problem-solver I sought out on this enriching journey. I began my journey at UC San Diego studying in the field of Cognitive Science and specializing in Human-Computer Interaction. With my minor in History I have been given the additional tools to look back and learn from the past to then set a new and improved path into the future. A future filled with simple, easy-to-use, and enjoyable interactions. <br> <br> If you would like to get in touch and learn more about me or work on a project together please feel free to contact me at <a href="mailto:laurachavessilva@gmail.com">laurachavessilva@gmail.com</a>.</p>
+	</div>
+	
+	<div id="footer">
+		<p>laura silva | <a href="mailto:" target="_top">laurachavessilva@gmail.com</a> | san jose, california</p>
+	</div>
+
+</div>
+</body>
+</html>
